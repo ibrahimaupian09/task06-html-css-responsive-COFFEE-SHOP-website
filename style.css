@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(235, 188, 188);
 }
 body{
     background-image: url();
@@ -32,4 +33,45 @@ nav{
     color: ;
     background-color: ;
 */
+}
+
+/* 1000px screen  */
+@media(max-width: 1000px){
+    #logo img{
+        width: 70px;
+        height: 70px;
+        padding-left: 50px;
+    }
+    .ancor-tags{
+        padding-left: 50px;
+    }
+    .ancor-tags a{
+        padding: 10px 10px;
+    }
+}
+/* Tablets */
+@media(max-width: 700px){
+    #logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .ancor-tags{
+        font-size: 2.5vh;
+        padding: 5px;
+    }
+}
+/* Mobile */
+@media(max-width: 420px){
+    #logo img{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+    }
+    .ancor-tags{
+        padding-right: 10px;
+    }
+    .ancor-tags a{
+        padding: 5px 5px;
+        font-size: 1.5vh;
+    }
 }
