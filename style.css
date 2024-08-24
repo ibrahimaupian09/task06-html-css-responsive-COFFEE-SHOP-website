@@ -202,6 +202,10 @@ h1 b{
     font-size: 13px;
     padding: 5px;
 }
+/* Image Text */
+.image-text{
+    padding: 40px 10px;    
+}
 }
 
 
